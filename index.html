@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delicias de Repostería: Tortas, galletas y cupcakes hechos con amor.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Delicias de Repostería</title>
+</head>
+<body>
+    <header>
+        <h1>Delicias de Repostería</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Delicias de Repostería, nos apasiona crear postres deliciosos y memorables. Cada uno de nuestros productos es hecho con amor y los mejores ingredientes.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-lista">
+            <div class="producto">
+                <img src="images/torta.jpg" alt="Torta de chocolate">
+                <h3>Torta de Chocolate</h3>
+                <p>Deliciosa torta con el mejor chocolate oscuro.</p>
+            </div>
+            <div class="producto">
+                <img src="images/galletas.jpg" alt="Galletas de vainilla y chispas de chocolate">
+                <h3>Galletas</h3>
+                <p>Galletas crujientes con chispas de chocolate.</p>
+            </div>
+            <div class="producto">
+                <img src="images/Magdalenas.jpg" alt="Magdalenas decoradas con chispas de colores">
+                <h3>Magdalenas</h3>
+                <p>Magdalenas esponjosas decoradas para cualquier ocasión.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4Ifl79qFpdv52QMjT9qz8nrA05tJoc7g7A8BqCBCaB5eEJQ/viewform?embedded=true" 
+                width="100%" height="800" frameborder="0" title="Formulario de contacto">
+            Cargando…
+        </iframe>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Delicias de Repostería - Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        // Actualiza automáticamente el año en el pie de página
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
